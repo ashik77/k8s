@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: db
+  name: db #since in src code it looks for db and redis
   labels:
     name: postgres-service
     app: demo-voting-app
